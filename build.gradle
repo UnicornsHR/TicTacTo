@@ -7,9 +7,13 @@
  * user guide available at https://docs.gradle.org/2.8/userguide/tutorial_java_projects.html
  */
 
-/*
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
+
+//apply plugin: 'application'
+
+//mainClassName = "hello.HelloWorld"
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -29,4 +33,15 @@ dependencies {
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
 }
-*/
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.8'
+}
+
+jar {
+    baseName = 'TicTacToe'
+    version =  '0.1.0'
+    manifest {
+        attributes 'Main-Class': 'hello.HelloWorld'
+    }
+}
