@@ -2,8 +2,8 @@ package hello;
 
 public class TTTGame{
 
-	private char[][] board;
-	private char currPlayerMark;
+	public char[][] board;
+	public char currPlayerMark;
 
 	public TTTGame(){
 		board = new char[3][3];
@@ -13,9 +13,9 @@ public class TTTGame{
 
 	public void ResetBoard(){
 
-		for(int i = 0; i < 3; i++) {
-			for(int j = 0; j < 3; j++) {
-				board[i][j] = ' ';
+		for(int r = 0; r < 3; r++) {
+			for(int c = 0; c < 3; c++) {
+				board[r][c] = ' ';
 			}
 		}
 	}
@@ -23,10 +23,10 @@ public class TTTGame{
 	public void printBoard() {
 		System.out.println("-------------");
 
-		for(int i = 0; i < 3; i++) {
+		for(int r = 0; r < 3; r++) {
 			System.out.print("| ");
-			for(int j = 0; j < 3; j++) {
-				System.out.print(board[i][j] + " | ");
+			for(int c = 0; c < 3; c++) {
+				System.out.print(board[r][c] + " | ");
 			}
 			System.out.println();
 			System.out.println("-------------");
