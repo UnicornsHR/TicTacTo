@@ -5,7 +5,17 @@ import static org.junit.Assert.*;
 
 public class MyUnitTest {
 
-    @Test
+	@Test
+	public void ResetBoardTest() {
+		TTTGame TTT = new TTTGame();
+		for(int r = 0; r < 3; r++) {
+			for(int c = 0; c < 3; c++) {
+				assertEquals(' ', TTT.board[r][c]);
+			}
+		}
+	}
+
+/* @Test
     public void testHello() {
         Greeter greetertest= new Greeter();
 

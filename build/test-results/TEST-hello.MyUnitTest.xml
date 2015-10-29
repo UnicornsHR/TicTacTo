@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.MyUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-10-29T13:47:46" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.002">
+<testsuite name="hello.MyUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-10-29T15:29:14" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.003">
   <properties/>
-  <testcase name="testHello" classname="hello.MyUnitTest" time="0.002"/>
+  <testcase name="ResetBoardTest" classname="hello.MyUnitTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
