@@ -54,7 +54,22 @@ public class MyUnitTest {
 		TTT.playGame(0, 0);
 		assertEquals(false, TTT.playGame(0, 0));
 	}
-/*@Test
+	@Test
+	public void isboardFullTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals(false, TTT.isBoardFull());
+		for(int r = 0; r < 3; r++) {
+			for(int c = 0; c < 3; c++) {
+				TTT.playGame(r, c);
+				if (r == 2 && c == 2) {
+					break;
+				}
+				assertEquals(false, TTT.isBoardFull());
+			}
+		}
+		assertEquals(true, TTT.isBoardFull());
+	}
+//*@Test
     public void testHello() {
         Greeter greetertest= new Greeter();
 
