@@ -69,6 +69,66 @@ public class MyUnitTest {
 		}
 		assertEquals(true, TTT.isBoardFull());
 	}
+	@Test
+	public void rowsIsThereAWinnerTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals(false, TTT.isThereAWinner());
+		for(int r = 0; r < 3; r++) {
+			for(int c = 0; c < 3; c++) {
+				TTT.playGame(r, c);
+				if (c == 2) {
+					break;
+				}
+				assertEquals(false, TTT.isThereAWinner());
+			}
+			assertEquals(true, TTT.isThereAWinner());
+			for(int c = 0; c < 3; c++) {
+				TTT.board[r][c] = ' ';
+			}
+		}
+	}
+	@Test
+	public void columnsIsThereAWinnerTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals(false, TTT.isThereAWinner());
+		for(int c = 0; c < 3; c++) {
+			for(int r = 0; r < 3; r++) {
+				TTT.playGame(r, c);
+				if (r == 2) {
+					break;
+				}
+				assertEquals(false, TTT.isThereAWinner());
+			}
+			assertEquals(true, TTT.isThereAWinner());
+			//Hreinsum bordid a eftir okkur til ad geta kannad alla columns. 
+			for(int r = 0; r < 3; r++) {
+				TTT.board[r][c] = ' ';
+			}
+		}
+	}
+	@Test
+	public void acrossToRightIsThereAWinnerTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals(false, TTT.isThereAWinner());
+		TTT.playGame(0, 0);
+		assertEquals(false, TTT.isThereAWinner());
+		TTT.playGame(1, 1);
+		assertEquals(false, TTT.isThereAWinner());
+		TTT.playGame(2, 2);
+		assertEquals(true, TTT.isThereAWinner());
+	}
+	@Test
+	public void acrossToLeftIsThereAWinnerTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals(false, TTT.isThereAWinner());
+		TTT.playGame(0, 2);
+		assertEquals(false, TTT.isThereAWinner());
+		TTT.playGame(1, 1);
+		assertEquals(false, TTT.isThereAWinner());
+		TTT.playGame(2, 0);
+		assertEquals(true, TTT.isThereAWinner());
+	}
+
 //*@Test
     public void testHello() {
         Greeter greetertest= new Greeter();
