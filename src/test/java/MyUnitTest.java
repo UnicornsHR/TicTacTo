@@ -6,6 +6,20 @@ import static org.junit.Assert.*;
 public class MyUnitTest {
 
 	@Test
+	public void FirstPlayerMarkTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals('x', TTT.currPlayerMark);
+	}
+	@Test
+	public void BoardSizeTest() {
+		TTTGame TTT = new TTTGame();
+		assertEquals(3, TTT.board.length);
+		for(int r = 0; r < TTT.board.length; r++)
+		{
+			assertEquals(3, TTT.board[r].length);
+		}
+	}
+	@Test
 	public void ResetBoardTest() {
 		TTTGame TTT = new TTTGame();
 		for(int r = 0; r < 3; r++) {
