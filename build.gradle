@@ -11,9 +11,9 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 
-//apply plugin: 'application'
+apply plugin: 'application'
 
-//mainClassName = "hello.HelloWorld"
+mainClassName = "MainGame"
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -42,9 +42,10 @@ jar {
     baseName = 'TicTacToe'
     version =  '0.1.0'
     manifest {
-        attributes 'Main-Class': 'hello.HelloWorld'
+        attributes 'Main-Class': 'MainGame'
     }
 }
 task stage {
     dependsOn build
+    dependsOn installApp
 }
