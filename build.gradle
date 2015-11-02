@@ -45,7 +45,6 @@ jar {
         attributes 'Main-Class': 'hello.HelloWorld'
     }
 }
-task stage
-{
+task stage {
     dependsOn build
 }
