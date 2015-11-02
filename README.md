@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/UnicornsHR/TicTacTo.png)](https://travis-ci.org/UnicornsHR/TicTacTo)
+[![Coverage Status](https://coveralls.io/repos/UnicornsHR/TicTacTo/badge.svg?branch=master&service=github)](https://coveralls.io/github/UnicornsHR/TicTacTo?branch=master)
+
 # TicTacToe
 A TicTacToe game coded with Java using build automation and Test Driven Development.
 
