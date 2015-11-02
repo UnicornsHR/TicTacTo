@@ -2,13 +2,28 @@ package game;
 
 public class TTTGame{
 
-	public char[][] board;
-	public char currPlayerMark;
+	private char[][] board;
+	private char currPlayerMark;
 
 	public TTTGame(){
 		board = new char[3][3];
 		currPlayerMark = 'x';
 		ResetBoard();
+	}
+	public char getCurrPlayerMark() {
+		return currPlayerMark;
+	}
+	
+	public void setCurrPlayerMark(char mark) {
+		currPlayerMark = mark; 
+	}
+	
+	public char getContentInCell(int r, int c) {
+		return board[r][c];
+	}
+	
+	public void setContentInCell(int r, int c, char mark) {
+		board[r][c] = mark;
 	}
 
 	public void ResetBoard(){
