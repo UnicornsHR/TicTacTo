@@ -5,8 +5,8 @@ A TicTacToe game coded with Java using build automation and Test Driven Developm
 Link to the game: http://unicorns-hugb2015.herokuapp.com/
 
 ##The Group: Unicorn Corporation
-_Auður Elísa Harðardót  
-_Halldís Una Heiðarsdót_  
-_Karlotta Guðlaugsdótti  
-_Perla Osk Hjartardóttir  
-_Stefana Kristín Olafsdotir_
+_Auður Elísa Harðardóttir_  
+_Halldís Una Hreiðarsdóttir_  
+_Karlotta Guðlaugsdóttir_  
+_Perla Ósk Hjartardóttir_  
+_Stefana Kristín Ílafsdóttir_
