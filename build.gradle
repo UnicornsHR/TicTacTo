@@ -45,7 +45,8 @@ jar {
         attributes 'Main-Class': 'game.MainGame'
     }
 }
-task stage
-{
+
+task stage {
     dependsOn build
 }
+
