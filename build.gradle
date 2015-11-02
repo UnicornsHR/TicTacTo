@@ -42,9 +42,21 @@ jar {
     baseName = 'TicTacTo'
     version =  '0.1.0'
     manifest {
+<<<<<<< HEAD
         attributes("Main-Class": "GameWeb")
+=======
+<<<<<<< HEAD
+        attributes 'Main-Class': 'MainGame'
+>>>>>>> 3ce5d6179cc14254e52c80d7beba671460ad6c06
     }
 }
+=======
+        attributes 'Main-Class': 'game.MainGame'
+    }
+}
+
+>>>>>>> 695f680a374096d41604f825ab1e42b87c68dde4
 task stage {
     dependsOn installDist
 }
+
