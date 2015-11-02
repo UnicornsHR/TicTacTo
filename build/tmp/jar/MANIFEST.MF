@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-<<<<<<< HEAD
-Main-Class: MainGame
-=======
-Main-Class: game.MainGame
->>>>>>> 695f680a374096d41604f825ab1e42b87c68dde4
-

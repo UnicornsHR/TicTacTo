@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/main/java/TicTacTo/TTTGame.java
+package tictacto;
+=======
 package game;
+>>>>>>> 3ce5d6179cc14254e52c80d7beba671460ad6c06:src/main/java/TTTGame.java
 
 public class TTTGame{
 

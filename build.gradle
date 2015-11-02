@@ -13,8 +13,6 @@ apply plugin: 'java'
 
 apply plugin: 'application'
 
-mainClassName = "MainGame"
-
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use 'jcenter' for resolving your dependencies.
@@ -32,18 +30,24 @@ dependencies {
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
+    compile 'com.sparkjava:spark-core:1.1.1'
 }
+mainClassName = "tictacto.SparkGame"
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
 }
 
 jar {
-    baseName = 'TicTacToe'
+    baseName = 'TicTacTo'
     version =  '0.1.0'
     manifest {
 <<<<<<< HEAD
+        attributes("Main-Class": "GameWeb")
+=======
+<<<<<<< HEAD
         attributes 'Main-Class': 'MainGame'
+>>>>>>> 3ce5d6179cc14254e52c80d7beba671460ad6c06
     }
 }
 =======
@@ -53,7 +57,6 @@ jar {
 
 >>>>>>> 695f680a374096d41604f825ab1e42b87c68dde4
 task stage {
-    dependsOn build
-    dependsOn installApp
+    dependsOn installDist
 }
 
