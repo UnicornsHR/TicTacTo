@@ -13,7 +13,7 @@ apply plugin: 'java'
 
 //apply plugin: 'application'
 
-//mainClassName = "hello.HelloWorld"
+mainClassName = "Game"
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -42,9 +42,10 @@ jar {
     baseName = 'TicTacToe'
     version =  '0.1.0'
     manifest {
-        attributes 'Main-Class': 'hello.HelloWorld'
+        attributes 'Main-Class': 'Game'
     }
 }
 task stage {
     dependsOn build
+    dependsOn installApp
 }
