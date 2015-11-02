@@ -2,8 +2,8 @@ package hello;
 
 public class TTTGame{
 
-	public char[][] board;
-	public char currPlayerMark;
+	private char[][] board;
+	private char currPlayerMark;
 
 	public TTTGame(){
 		board = new char[3][3];
