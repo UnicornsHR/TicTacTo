@@ -1,11 +1,8 @@
-package hello;
+package game;
 import java.util.Scanner;
 
-public class HelloWorld {
-  public static void main(String[] args) {
-  // Greeter greeter = new Greeter();
-  // System.out.println(greeter.sayHello()); 
-//System.out.println("HELLO DAVID");
+public class MainGame {
+  public static void main(String[] args) { 
 
 	int playAgain = 1;
 	while (playAgain == 1) {

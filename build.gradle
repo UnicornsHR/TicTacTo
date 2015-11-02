@@ -42,7 +42,7 @@ jar {
     baseName = 'TicTacToe'
     version =  '0.1.0'
     manifest {
-        attributes 'Main-Class': 'hello.HelloWorld'
+        attributes 'Main-Class': 'game.MainGame'
     }
 }
 task stage
