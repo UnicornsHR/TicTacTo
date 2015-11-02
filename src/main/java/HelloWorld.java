@@ -7,39 +7,44 @@ public class HelloWorld {
   // System.out.println(greeter.sayHello()); 
 //System.out.println("HELLO DAVID");
 
-	TTTGame TicTacToe = new TTTGame();
-	TicTacToe.printBoard();
-	while (TicTacToe.isBoardFull() == false) {
-		Scanner in = new Scanner(System.in);
-		int x = in.nextInt();
-		int y = in.nextInt();
-		while(((x < 0) ||( x > 2)) || ((y < 0) || (y > 2))) {
-			System.out.println("please enter numbers between 0 and 2");
-			x = in.nextInt();
-			y = in.nextInt();
-		}
-
-		//int x = Integer.parseInt(in.readLine());
-		//int y = Integer.parseInt(in.readLine());
-
-		//Integer x = Integer.valueOf(request.queryParams("first"));
-        	//Integer  y = Integer.valueOf(request.queryParams("second"));
-
-		TicTacToe.playGame(x,y);
+	int playAgain = 1;
+	while (playAgain == 1) {
+		TTTGame TicTacToe = new TTTGame();
 		TicTacToe.printBoard();
-		if (TicTacToe.isThereAWinner() == true) {
-			System.out.println("We have a winner!");
-			System.exit(0);
-		}
-		else if (TicTacToe.isBoardFull() == true) {
-			System.out.println("No winner...");
-			System.exit(0);
-		}
-		TicTacToe.changePlayer();
+		Scanner in = new Scanner(System.in);
 
-		//x++;
-		//y++;
+		while (TicTacToe.isBoardFull() == false && TicTacToe.isThereAWinner() == false) {
+
+			int x = in.nextInt();
+			int y = in.nextInt();
+
+			while(((x < 0) ||( x > 2)) || ((y < 0) || (y > 2))) {
+				System.out.println("please enter numbers between 0 and 2");
+				x = in.nextInt();
+				y = in.nextInt();
+			}
+
+			while (TicTacToe.isSpotMarked(x, y) == true) {
+                                        System.out.println ("This spot is already marked, choose an unmarked spot");
+                                        x = in.nextInt();
+                                        y = in.nextInt();
+                        }
+
+			TicTacToe.playGame(x,y);
+			TicTacToe.printBoard();
+			if (TicTacToe.isThereAWinner() == true) {
+				System.out.println("We have a winner!");
+			}
+
+			else if (TicTacToe.isBoardFull() == true) {
+				System.out.println("No winner...");
+			}
+
+			TicTacToe.changePlayer();
+		}
+
+		System.out.println("Choose 1 if you want to play again");
+		playAgain = in.nextInt();
 	}
-
   }
 }
