@@ -9,4 +9,4 @@ _Auður Elísa Harðardóttir_
 _Halldís Una Hreiðarsdóttir_  
 _Karlotta Guðlaugsdóttir_  
 _Perla Ósk Hjartardóttir_  
-_Stefana Kristín Ílafsdóttir_
+_Stefana Kristín Ólafsdóttir_
