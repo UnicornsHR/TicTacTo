@@ -3,3 +3,7 @@ jdk:
 - oraclejdk8
 script:
 - ./gradlew check
+deploy:
+provider: heroku
+api-key: 'fda5fbdf-6334-4cbc-af52-bdf95785b68f'
+app: unicorns-hugb2015
