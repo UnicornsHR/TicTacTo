@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="hello.MyUnitTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2015-11-02T14:41:31" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.012">
   <properties/>
   <testcase name="firstPlayerMarkTest" classname="hello.MyUnitTest" time="0.003"/>
   <testcase name="illegalPositionPlayGameTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="changePlayerTest" classname="hello.MyUnitTest" time="0.0"/>
+=======
+<<<<<<< HEAD
+<testsuite name="hello.MyUnitTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2015-11-01T19:01:14" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.012">
+  <properties/>
+  <testcase name="firstPlayerMarkTest" classname="hello.MyUnitTest" time="0.003"/>
+  <testcase name="illegalPositionPlayGameTest" classname="hello.MyUnitTest" time="0.0"/>
+  <testcase name="changePlayerTest" classname="hello.MyUnitTest" time="0.001"/>
+>>>>>>> 695f680a374096d41604f825ab1e42b87c68dde4
   <testcase name="acrossToLeftIsThereAWinnerTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="resetBoardTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="boardSizeTest" classname="hello.MyUnitTest" time="0.0"/>
@@ -12,6 +21,14 @@
   <testcase name="columnsIsThereAWinnerTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="acrossToRightIsThereAWinnerTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="isboardFullTest" classname="hello.MyUnitTest" time="0.0"/>
+<<<<<<< HEAD
+=======
+=======
+<testsuite name="hello.MyUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-11-02T12:38:34" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.003">
+  <properties/>
+  <testcase name="ResetBoardTest" classname="hello.MyUnitTest" time="0.003"/>
+>>>>>>> 1dfb0c88aa72745bd2f0b5a7d945e8d60811930f
+>>>>>>> 695f680a374096d41604f825ab1e42b87c68dde4
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

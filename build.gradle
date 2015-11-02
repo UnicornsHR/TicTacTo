@@ -42,10 +42,18 @@ jar {
     baseName = 'TicTacToe'
     version =  '0.1.0'
     manifest {
+<<<<<<< HEAD
         attributes 'Main-Class': 'MainGame'
     }
 }
+=======
+        attributes 'Main-Class': 'game.MainGame'
+    }
+}
+
+>>>>>>> 695f680a374096d41604f825ab1e42b87c68dde4
 task stage {
     dependsOn build
     dependsOn installApp
 }
+
