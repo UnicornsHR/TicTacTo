@@ -69,10 +69,10 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\TicTacTo-0.1.0.jar;%APP_HOME%\lib\slf4j-api-1.7.12.jar
+set CLASSPATH=%APP_HOME%\lib\TicTacTo-0.1.0.jar;%APP_HOME%\lib\slf4j-api-1.7.12.jar;%APP_HOME%\lib\spark-core-1.1.1.jar;%APP_HOME%\lib\jetty-server-9.0.2.v20130417.jar;%APP_HOME%\lib\jetty-webapp-9.0.2.v20130417.jar;%APP_HOME%\lib\javax.servlet-3.0.0.v201112011016.jar;%APP_HOME%\lib\jetty-http-9.0.2.v20130417.jar;%APP_HOME%\lib\jetty-io-9.0.2.v20130417.jar;%APP_HOME%\lib\jetty-xml-9.0.2.v20130417.jar;%APP_HOME%\lib\jetty-servlet-9.0.2.v20130417.jar;%APP_HOME%\lib\jetty-util-9.0.2.v20130417.jar;%APP_HOME%\lib\jetty-security-9.0.2.v20130417.jar
 
 @rem Execute TicTacTo
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TIC_TAC_TO_OPTS%  -classpath "%CLASSPATH%" TTTGame %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TIC_TAC_TO_OPTS%  -classpath "%CLASSPATH%" tictacto.SparkGame %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
