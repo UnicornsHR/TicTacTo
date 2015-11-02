@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.MyUnitTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2015-11-02T14:41:31" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.012">
+<testsuite name="hello.MyUnitTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2015-11-02T18:07:36" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.005">
   <properties/>
-  <testcase name="firstPlayerMarkTest" classname="hello.MyUnitTest" time="0.003"/>
+  <testcase name="firstPlayerMarkTest" classname="hello.MyUnitTest" time="0.002"/>
   <testcase name="illegalPositionPlayGameTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="changePlayerTest" classname="hello.MyUnitTest" time="0.0"/>
   <testcase name="acrossToLeftIsThereAWinnerTest" classname="hello.MyUnitTest" time="0.0"/>
