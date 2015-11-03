@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) { 
 
-	nt playAgain = 1;
+	int playAgain = 1;
 	while (playAgain == 1) {
 		TTTGame TicTacToe = new TTTGame();
 		TicTacToe.printBoard();
