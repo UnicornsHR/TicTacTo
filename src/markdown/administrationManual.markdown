@@ -1,30 +1,27 @@
 ## Administration manual
 
 ##### Team name - Unicorns
-Au√∞ur Eisa Har√∞ard√ottir  
-Halld√is Una Hrei√∞arodttir  
+Au√∞ur Elisa Har√∞arsdottir  
+Halldis Una Hrei√∞arsdottir  
 Karlotta Gu√∞laugsottir  
-Perla √sk Hjartard√ottir  
-Stefana Krist√i Olafsdottir  
+Perla Osk Hjartardottir  
+Stefana Kristin Olafsdottir  
 
 #### Introduction
-In this manual you will get instructions on how to install and run the TicTacToe game.
+In this manual you will get instructions on how to set up TicTacTo and get it to rune.
 
 #### Running TicTacToe locally on Linux
 * Install JDK
-* Download the zip file from Github
+* Download the zip file from [Github](https://github.com/UnicornsHR/TicTacTo)
 * Extract zip file
 * Navigate to location af the game using the terminal window
-* Run the game from the TicTacToe folder. Type: ./gradlew run
+* Run the game from the TicTacToe folder. Type: ./bin/runGame
 
 
 #### Running TicTacToe locally on Windows
 * Install JDK
-* Download the zip file from Github
+* Download the zip file from [Github](https://github.com/UncornsHR/TicTacTo)
 * Extract zip file
 * Navigate to location af the game using command prompt
-* Run the game from the TicTacToe folder. Type: ./gradlew run
-
-
-#### Playing TicTacToe on server or web-application
+* Run the game from the TicTacToe folder. Type: ./bin/runGame
 
