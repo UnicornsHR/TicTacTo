@@ -1,7 +1,7 @@
 package tictacto;
 import java.util.Scanner;
 
-public class SparkGame {
+public class Main {
   public static void main(String[] args) { 
 
 	int playAgain = 1;
