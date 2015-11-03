@@ -1,0 +1,22 @@
+## Administration manual
+
+##### Team name - Unicorns
+Auður Eisa Harðard�ottir  
+Halldis Una Hreiðarodttir  
+Karlotta Guðlaugsottir  
+Perla Osk Hjartardoottir  
+Stefana Kristin Olafsdottir  
+
+#### Introduction
+In this manual you will get instructions on how to set up TicTacTo and get it to run.
+
+#### Running TicTacToe locally on Linux
+* Install JDK
+* Download the zip file from Github
+* Extract zip file
+* Navigate to location af the game using the terminal window
+* Run the game from the TicTacToe folder. Type: ./gradlew run
+
+
+#### Playing TicTacToe on server or web-application
+
