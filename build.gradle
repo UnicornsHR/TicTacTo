@@ -42,9 +42,16 @@ jar {
     baseName = 'TicTacTo'
     version =  '0.1.0'
     manifest {
-       attributes("Main-Class": "SparkGame")
+      //attributes("Main-Class": "SparkGame")
+	attributes 'Main-Class': 'tictacto.SparkGame'
     }
 }
 task stage {
     dependsOn installDist
 }
+
+//task runJar(dependsOn:jar) << {
+//	javaexec { main"-jar"; args jar.archivePath }
+//}
+
+

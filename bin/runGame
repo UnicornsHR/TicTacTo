@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./gradlew clean
+
+./gradlew build
+
+cd build/libs
+
+java -jar TicTacTo-0.1.0.jar
