@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tictacto.MyUnitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-11-03T18:52:01" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.011">
+<testsuite name="tictacto.MyUnitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-11-03T19:11:46" hostname="i-7f3b5dd9.csd07cloud.internal" time="0.012">
   <properties/>
-  <testcase name="firstPlayerMarkTest" classname="tictacto.MyUnitTest" time="0.002"/>
+  <testcase name="firstPlayerMarkTest" classname="tictacto.MyUnitTest" time="0.004"/>
   <testcase name="illegalPositionPlayGameTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <testcase name="changePlayerTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <testcase name="acrossToLeftIsThereAWinnerTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <testcase name="resetBoardTest" classname="tictacto.MyUnitTest" time="0.0"/>
-  <testcase name="cellAlreadyTakenPlayGameTest" classname="tictacto.MyUnitTest" time="0.001"/>
+  <testcase name="cellAlreadyTakenPlayGameTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <testcase name="rowsIsThereAWinnerTest" classname="tictacto.MyUnitTest" time="0.0"/>
-  <testcase name="columnsIsThereAWinnerTest" classname="tictacto.MyUnitTest" time="0.001"/>
+  <testcase name="columnsIsThereAWinnerTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <testcase name="acrossToRightIsThereAWinnerTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <testcase name="isboardFullTest" classname="tictacto.MyUnitTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

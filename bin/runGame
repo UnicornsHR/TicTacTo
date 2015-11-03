@@ -16,7 +16,7 @@ mv build/gen-html/designReport.html docs
 
 mv build/gen-html/developmentManual.html docs
 
-cd build/libs
+cp build/libs/TicTacTo-0.1.0.jar ~/
 
-java -jar TicTacTo-0.1.0.jar
+java -jar ~/TicTacTo-0.1.0.jar
 
