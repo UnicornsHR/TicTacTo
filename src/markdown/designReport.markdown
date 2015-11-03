@@ -16,4 +16,4 @@ The **TicTacToe** game is a web-application which  was written and developed in 
 
 The program consists of two classes which can be seen in the class diagram below.
 The class TTTGame consists of all the functions necessary for the game to play while the class main runs the game.
-![alt icon](http://tinypic.com/r/2qly7nn/9)
+![alt icon](http://oi65.tinypic.com/2qly7nn.jpg)
