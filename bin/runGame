@@ -2,8 +2,21 @@
 
 ./gradlew clean
 
+rm -rf docs
+
 ./gradlew build
+
+./gradlew markdownToHtml
+
+mkdir docs
+
+mv build/gen-html/administrationManual.html docs
+
+mv build/gen-html/designReport.html docs
+
+mv build/gen-html/developmentManual.html docs
 
 cd build/libs
 
 java -jar TicTacTo-0.1.0.jar
+

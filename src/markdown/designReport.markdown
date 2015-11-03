@@ -1,12 +1,11 @@
 ## Design report
 
 ##### Team name - Unicorns
-
-Auður Elísa Harðardóttir  
-Halldís Una Hreiðarsdóttir  
-Karlotta Guðlaugsdóttir  
-Perla Ósk Hjartardóttir  
-Stefana Kristín Ólafsdóttir 
+Auður Elisa Harðardottir
+Halldis Una Hreiðarsdottr  
+Karlotta Guðlaugsdottr  
+Perla Osk Hjartardottir  
+Stefana Kristin Olafsdottir  
 
 #### Introduction
 The **TicTacToe** game was written and developed in Java using Github. The grid consists of 3x3 (x,y) table as shown below. The players must type the cordinates of the spot they want to mark with the X or O, and press the enter button to confirm their answer.  

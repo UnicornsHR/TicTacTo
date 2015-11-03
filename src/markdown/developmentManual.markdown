@@ -1,11 +1,11 @@
 ## Development manual 
 
 #### Team name - Unicorns
-Auður Elísa Harðardóttir  
-Halldís Una Hreiðarsdóttir  
-Karlotta Guðlaugsdóttir  
-Perla Ósk Hjartardóttir  
-Stefana Kristín Ólafsdóttir
+Auður Eisa Harðard�ottir  
+Halldis Una Hreiðarsdottir  
+Karlotta Guðlaugso�ttir  
+Perla Osk Hjartardottir  
+Stefana Krist�i Olafsdottir
 
 #### Introduction
 In this manual you will get instructions on what is needed and how to build the **TicTacToe game.

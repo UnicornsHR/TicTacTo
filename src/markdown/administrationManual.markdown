@@ -1,11 +1,11 @@
 ## Administration manual
 
 ##### Team name - Unicorns
-Auður Elísa Harðardóttir  
-Halldís Una Hreiðarsdóttir  
-Karlotta Guðlaugsdóttir  
-Perla Ósk Hjartardóttir  
-Stefana Kristín Ólafsdóttir  
+Auður Eisa Harðard�ottir  
+Halld�is Una Hreiðarodttir  
+Karlotta Guðlaugsottir  
+Perla �sk Hjartard�ottir  
+Stefana Krist�i Olafsdottir  
 
 #### Introduction
 In this manual you will get instructions on how to install and run the TicTacToe game.
