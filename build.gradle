@@ -43,7 +43,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.sparkjava:spark-core:1.1.1'
 }
-mainClassName = "tictacto.SparkGame"
+mainClassName = "tictacto.Main"
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
@@ -54,7 +54,7 @@ jar {
     version =  '0.1.0'
     manifest {
       //attributes("Main-Class": "SparkGame")
-	attributes 'Main-Class': 'tictacto.SparkGame'
+	attributes 'Main-Class': 'tictacto.Main'
     }
 }
 task stage {
