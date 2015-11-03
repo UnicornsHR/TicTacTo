@@ -1,4 +1,4 @@
-package hello;
+package tictacto;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -8,23 +8,14 @@ public class MyUnitTest {
 	/**@Test 
 	public void firstPlayerMarkTest() {
 		TTTGame TTT = new TTTGame();
-		assertEquals('x', TTT.currPlayerMark);
-	}
-	@Test
-	public void boardSizeTest() {
-		TTTGame TTT = new TTTGame();
-		assertEquals(3, TTT.board.length);
-		for(int r = 0; r < TTT.board.length; r++)
-		{
-			assertEquals(3, TTT.board[r].length);
-		}
+		assertEquals('x', TTT.getCurrPlayerMark());
 	}
 	@Test
 	public void resetBoardTest() {
 		TTTGame TTT = new TTTGame();
 		for(int r = 0; r < 3; r++) {
 			for(int c = 0; c < 3; c++) {
-				assertEquals(' ', TTT.board[r][c]);
+				assertEquals(' ', TTT.getContentInCell(r,c));
 			}
 		}
 
@@ -33,9 +24,9 @@ public class MyUnitTest {
 	public void changePlayerTest() {
 		TTTGame TTT = new TTTGame();
 		TTT.changePlayer();
-		assertEquals('o', TTT.currPlayerMark);
+		assertEquals('o', TTT.getCurrPlayerMark());
 		TTT.changePlayer();
-		assertEquals('x', TTT.currPlayerMark);
+		assertEquals('x', TTT.getCurrPlayerMark());
 	}
 	@Test
 	public void illegalPositionPlayGameTest() {
@@ -83,7 +74,7 @@ public class MyUnitTest {
 			}
 			assertEquals(true, TTT.isThereAWinner());
 			for(int c = 0; c < 3; c++) {
-				TTT.board[r][c] = ' ';
+				TTT.setContentInCell(r, c, ' ');
 			}
 		}
 	}
@@ -102,7 +93,7 @@ public class MyUnitTest {
 			assertEquals(true, TTT.isThereAWinner());
 			//Hreinsum bordid a eftir okkur til ad geta kannad alla columns. 
 			for(int r = 0; r < 3; r++) {
-				TTT.board[r][c] = ' ';
+				TTT.setContentInCell(r, c, ' ');
 			}
 		}
 	}
