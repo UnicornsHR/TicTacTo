@@ -1,7 +1,7 @@
 ## Design report
 
 ##### Team name - Unicorns
-Auður Elisa Harðardottir
+Auður Elisa Harðardottir 
 Halldis Una Hreiðarsdottr  
 Karlotta Guðlaugsdottr  
 Perla Osk Hjartardottir  
